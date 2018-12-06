@@ -1,0 +1,190 @@
+
+/*block contacter le support*/
+.formContactSupport
+{
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    padding: 0px;
+    float: left;
+    position: relative;
+    background-color: #D0D0D0
+    ; 
+    margin-left: 10% ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+
+
+
+}
+
+/*block contacter un memebre du groupe*/
+.ContacterUnmembreDuGroupe
+{
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    padding: 0px;  
+    float: left; 
+    position: relative;  
+    background-color: #D0D0D0
+    ; 
+    margin-left: 2% ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+
+    
+    
+}
+body{
+    font-family: 'Merienda', cursive;
+}
+/*block mention légal*/
+.mentionLegale
+{
+    display: inline-block;
+    width: 34.75%;
+    height: 40%;
+    padding: 10px;  
+    float: left; 
+    position: relative;  
+    background-color: #D0D0D0; 
+    margin-left: 10% ;
+    left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:5%;
+    margin-left: 32%;
+
+}
+
+.TitreMention
+{
+    font-size: 18px;
+}
+
+/*ce sont les titres ainsi que "message qui sont centré*/
+
+.imageCenter
+{
+    text-align: center;
+
+}
+
+/*fond*/
+body
+{
+background: url("../img/image3.png")  fixed center; 
+}
+
+/*banière*/
+.navbar 
+{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 150;
+}
+   
+.navbar a
+{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+   
+.navbar a:hover 
+{
+    background: #ddd;
+    color: black;
+}
+/* FOOTER */ 
+/* BLoc centrale du footer*/
+#ctnFooter{
+    font-family: 'Allerta Stencil', sans-serif;
+    height: 130px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #BDC1C4;
+    position: absolute;
+    
+}
+/*1 er bloc du footer*/
+.txtFooter1{
+    
+    position: relative;
+    height: 110px;
+    float: left;
+    margin: 0%;
+    width: 250px;
+    left: 90px;
+}
+/*2 ieme bloc du footer*/
+.txtFooter2{
+    position: relative;
+    margin: 0%;
+    float: left;
+    height: 90px;
+    width: 25%;
+    left:110px;
+}
+/*Image resaux sociaux*/
+.iconReseauxSociaux{
+    height: 20%;
+    float: left;
+    width: 100px;
+    margin-left: 170px;
+    margin-top:1.5%;
+    
+}
+/*Facebook + Twitter */
+.partie1Icon{
+    position: relative;
+    left: 0%;
+}
+
+/*LinkeDin + Youtube */
+.partie2Icon{
+    position: relative;
+    left:20px;
+}
+.txtFooter3{
+    height: 115px;
+    width: 350px;
+    float: left;
+    margin-left: 2.5%;
+}
+/*Système de notation du site */
+.noteSite{
+    
+    position: relative;
+    float:  left;
+    left: 1.5%s%;
+    margin: 0%;
+   margin-top: 1.5%;
+}
+.noteSite p, .noteSite li, .noteSite input{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+ul.notes-echelle {
+	margin:0;
+	padding:0;
+	font:.75em/1.2 Arial, Helvetica, sans-serif;
+}
+ul.notes-echelle li {
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+	min-width:20px;
+	min-height:20px;
+}
+
+/*Fin notes du site */
